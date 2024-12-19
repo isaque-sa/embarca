@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include "UnidadeTemperatura.h"
 
 
 int main()
@@ -36,6 +37,7 @@ int main()
         break;
         case 4:
         // Função para calcular e mostrar as temperaturas convertidas
+        UnidadedeTemperatura();
         break;
         case 5:
         // Função para calcular e mostrar as velocidades convertidas
