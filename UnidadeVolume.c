@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-const int MAX = 5;
+//const int MAX = 5;
 
 void converter_volume(float valor, char unidade[]) {
     if (!strcmp(unidade, "l")) {

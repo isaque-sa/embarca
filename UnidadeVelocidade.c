@@ -170,14 +170,14 @@ void mph(){
     }
 }
 
-
+/*
 void LimpaTela() {
     for (int i = 0; i < 30; i++) {
         printf("\n");
     }
 }
 
-/*
+
 int main(){
     UnidadedeVelocidade();
     return 0;
