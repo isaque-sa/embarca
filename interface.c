@@ -32,6 +32,7 @@ int main()
         break;
         case 3:
         // Função para calcular e mostrar os volumes convertidos
+        show_voluma();
         break;
         case 4:
         // Função para calcular e mostrar as temperaturas convertidas

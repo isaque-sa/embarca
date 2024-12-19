@@ -2,7 +2,9 @@
 #include <string.h>
 #include <ctype.h>
 
-//const int MAX = 5;
+void converter_volume(float valor, char unidade[]);
+void show_voluma();
+
 
 void converter_volume(float valor, char unidade[]) {
     if (!strcmp(unidade, "l")) {
@@ -18,8 +20,9 @@ void converter_volume(float valor, char unidade[]) {
         printf("Unidade invalida. Use 'L', 'mL' ou 'm3'.\n");
     }
 }
-/*
-int main() {
+
+void show_voluma() {
+    const int MAX = 5;
     float valor;
     char unidade[MAX];
 
@@ -37,6 +40,4 @@ int main() {
 
     converter_volume(valor, unidade);
 
-    return 0;
 }
-*/
