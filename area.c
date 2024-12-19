@@ -10,7 +10,7 @@ void centimetrosParaMetros(float centimetros) {
     float metros = centimetros / 10000; // 1 cm² = 0,0001 m²
     printf("%.2f centímetros quadrados equivalem a %.2f metros quadrados.\n", centimetros, metros);
 }
-
+/*
 int main() {
     int opcao;
     float valor;
@@ -36,5 +36,5 @@ int main() {
 
     return 0;
 }
-
+*/
 // outras ainda serão executas

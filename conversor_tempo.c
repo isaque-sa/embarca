@@ -18,7 +18,7 @@ void converter_de_horas(double horas) {
     double minutos = horas * 60;
     printf("%.2f horas é igual a %.2f segundos ou %.2f minutos.\n", horas, segundos, minutos);
 }
-
+/*
 int main() {
     int opcao;
     double valor;
@@ -58,3 +58,4 @@ int main() {
 
     return 0;
 }
+*/

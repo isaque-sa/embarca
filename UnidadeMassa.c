@@ -18,7 +18,7 @@ void converter_massa(float valor, char unidade[]) {
         printf("Unidade inválida. Use 'kg', 'g' ou 't'.\n");
     }
 }
-
+/*
 int main() {
     float valor;
     char unidade[MAX];
@@ -39,3 +39,4 @@ int main() {
 
     return 0;
 }
+*/

@@ -20,7 +20,7 @@ unsigned long long converterParaBits(int unidade, double valor) {
         default: return 0;  // Caso inválido
     }
 }
-
+/*
 int main() {
     int opcao;
     double valor;
@@ -53,3 +53,4 @@ int main() {
 
     return 0;
 }
+*/

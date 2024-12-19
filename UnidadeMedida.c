@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 const int MAX = 3;
-
+/*
 int main() {
     float f;
     char s[MAX];
@@ -37,3 +37,4 @@ int main() {
 
     return 0;
 }
+*/

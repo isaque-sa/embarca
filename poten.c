@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*
 int main() {
     int opcao;
     float valor, resultado;
@@ -42,4 +42,5 @@ int main() {
 
     return 0;
 }
+*/
 // outras conversãoes ainda serão executadas 
