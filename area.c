@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void area();
+void metrosParaCentimetros(float metros);
+void centimetrosParaMetros(float centimetros);
 
 void metrosParaCentimetros(float metros) {
     float centimetros = metros * 10000; // 1 m² = 10.000 cm²
@@ -10,12 +13,12 @@ void centimetrosParaMetros(float centimetros) {
     float metros = centimetros / 10000; // 1 cm² = 0,0001 m²
     printf("%.2f centímetros quadrados equivalem a %.2f metros quadrados.\n", centimetros, metros);
 }
-/*
-int main() {
+
+void area() {
     int opcao;
     float valor;
 
-    printf("=== Conversor de Área ===\n");
+    printf("\n\n=== Conversor de Área ===\n");
     printf("Escolha a direção da conversão:\n");
     printf("1. Metros quadrados (m²) para Centímetros quadrados (cm²)\n");
     printf("2. Centímetros quadrados (cm²) para Metros quadrados (m²)\n");
@@ -34,7 +37,6 @@ int main() {
         printf("Opção inválida. Tente novamente.\n");
     }
 
-    return 0;
 }
-*/
+
 // outras ainda serão executas

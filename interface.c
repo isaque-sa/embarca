@@ -50,6 +50,7 @@ int main()
         break;
         case 7:
         // Função para calcular e mostrar as areas convertidas
+        area();
         break;
         case 8:
         // Função para calcular e mostrar os tempos convertidos
