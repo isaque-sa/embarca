@@ -46,6 +46,7 @@ int main()
         break;
         case 6:
         // Função para calcular e mostrar as potencias convertidas
+        potencia();
         break;
         case 7:
         // Função para calcular e mostrar as areas convertidas
