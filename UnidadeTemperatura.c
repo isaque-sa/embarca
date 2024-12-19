@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include "UnidadeTemperatura.h"
 
 
-/*
+
 void UnidadedeTemperatura();
 void Celsius();
 void Fahrenheit();
 void Kelvin();
 void LimpaTela();
-*/
+
 
 void UnidadedeTemperatura(){
     int opcao = 0;
