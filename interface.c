@@ -26,6 +26,7 @@ int main()
     switch(escolha){
         case 1:
         // Função para calcular e mostrar os comprimentos convertidos
+        comprimento();
         break;
         case 2:
         // Função para calcular e mostrar as massas convertidas
@@ -51,6 +52,7 @@ int main()
         break;
         case 8:
         // Função para calcular e mostrar os tempos convertidos
+        show_time();
         break;
         case 9:
         // Função para calcular e mostrar os bytes convertidos

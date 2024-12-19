@@ -1,6 +1,9 @@
 //Programa simples para converter unidades de tempo ( segundos, minutos, horas )
 #include <stdio.h>
 
+void converter_de_segundos(double segundos);
+void show_time();
+
 void converter_de_segundos(double segundos) {
     double minutos = segundos / 60;
     double horas = minutos / 60;
@@ -18,12 +21,12 @@ void converter_de_horas(double horas) {
     double minutos = horas * 60;
     printf("%.2f horas é igual a %.2f segundos ou %.2f minutos.\n", horas, segundos, minutos);
 }
-/*
-int main() {
+
+void show_time() {
     int opcao;
     double valor;
 
-    printf("Escolha a unidade de tempo que deseja converter:\n");
+    printf("\n\nEscolha a unidade de tempo que deseja converter:\n");
     printf("1. Segundos\n");
     printf("2. Minutos\n");
     printf("3. Horas\n");
@@ -56,6 +59,4 @@ int main() {
         }
     }
 
-    return 0;
 }
-*/
