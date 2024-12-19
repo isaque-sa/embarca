@@ -1,3 +1,4 @@
+//Programa simples para converter dados entre Bits, bytes, kilobytes (KB), megabytes (MB), gigabytes (GB), terabytes (TB). 
 #include <stdio.h>
 
 #define BIT 1ULL

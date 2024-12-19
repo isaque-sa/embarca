@@ -1,3 +1,4 @@
+//Programa simples para converter unidades de tempo ( segundos, minutos, horas )
 #include <stdio.h>
 
 void converter_de_segundos(double segundos) {
