@@ -41,6 +41,7 @@ int main()
         break;
         case 5:
         // Função para calcular e mostrar as velocidades convertidas
+        UnidadedeVelocidade();
         break;
         case 6:
         // Função para calcular e mostrar as potencias convertidas
