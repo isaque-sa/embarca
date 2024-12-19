@@ -8,6 +8,9 @@
 #define GB (1024ULL * MB)
 #define TB (1024ULL * GB)
 
+unsigned long long converterParaBits(int unidade, double valor);
+void show_dados();
+
 // Função sem array para converter para bits
 unsigned long long converterParaBits(int unidade, double valor) {
     switch (unidade) {
@@ -20,13 +23,13 @@ unsigned long long converterParaBits(int unidade, double valor) {
         default: return 0;  // Caso inválido
     }
 }
-/*
-int main() {
+
+void show_dados() {
     int opcao;
     double valor;
 
     // Menu de seleção
-    printf("Escolha a unidade de entrada:\n");
+    printf("\n\nEscolha a unidade de entrada:\n");
     printf("1. Bits\n2. Bytes\n3. Kilobytes (KB)\n4. Megabytes (MB)\n5. Gigabytes (GB)\n6. Terabytes (TB)\nOpção: ");
     scanf("%d", &opcao);
 
@@ -50,7 +53,4 @@ int main() {
     printf("Megabytes (MB): %.9f\n", totalBits / (double)MB);
     printf("Gigabytes (GB): %.12f\n", totalBits / (double)GB);
     printf("Terabytes (TB): %.15f\n", totalBits / (double)TB);
-
-    return 0;
 }
-*/

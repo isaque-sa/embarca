@@ -54,6 +54,7 @@ int main()
         break;
         case 9:
         // Função para calcular e mostrar os bytes convertidos
+        show_dados();
         break;
     }
 
