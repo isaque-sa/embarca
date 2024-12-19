@@ -29,6 +29,7 @@ int main()
         break;
         case 2:
         // Função para calcular e mostrar as massas convertidas
+        show_massa();
         break;
         case 3:
         // Função para calcular e mostrar os volumes convertidos
