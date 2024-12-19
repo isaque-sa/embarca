@@ -26,12 +26,12 @@ void show_voluma() {
     float valor;
     char unidade[MAX];
 
-    printf("Conversao de unidades de volume (L, mL, m3):\n");
+    printf("\n\nConversao de unidades de volume (L, mL, m3):\n");
+
+    printf("\nInsira a unidade (L, mL, m3):\n");
+    scanf("%4s", unidade);
     printf("Insira o valor:\n");
     scanf("%f", &valor);
-
-    printf("Insira a unidade (L, mL, m3):\n");
-    scanf("%4s", unidade);
 
     // Normalizar a unidade para letras minúsculas
     for (int i = 0; unidade[i]; i++) {
