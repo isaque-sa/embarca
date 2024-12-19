@@ -178,8 +178,9 @@ void LimpaTela() {
     }
 }
 
-
+/*
 int main(){
     UnidadedeTemperatura();
     return 0;
 }
+*/
