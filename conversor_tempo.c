@@ -26,7 +26,7 @@ void show_time() {
     int opcao;
     double valor;
 
-    printf("\n\nEscolha a unidade de tempo que deseja converter:\n");
+    printf("Escolha a unidade de tempo que deseja converter:\n");
     printf("1. Segundos\n");
     printf("2. Minutos\n");
     printf("3. Horas\n");

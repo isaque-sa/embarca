@@ -9,7 +9,7 @@ void comprimento() {
     float f;
     char s[MAX];
 
-    printf("\n\nQual a unidade? (m/cm/mm)\n");
+    printf("Qual a unidade? (m/cm/mm)\n");
     scanf("%2s", s);
 
     printf("Insira um valor:\n");

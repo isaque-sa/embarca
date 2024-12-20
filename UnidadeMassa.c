@@ -25,7 +25,7 @@ void show_massa() {
     float valor;
     char unidade[MAX];
 
-    printf("\n\nConversao de unidades de massa (kg, g, t):\n");
+    printf("Conversao de unidades de massa (kg, g, t):\n");
 
     printf("\nInsira a unidade (kg, g, t):\n");
     scanf("%4s", unidade);

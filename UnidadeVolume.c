@@ -26,7 +26,7 @@ void show_voluma() {
     float valor;
     char unidade[MAX];
 
-    printf("\n\nConversao de unidades de volume (L, mL, m3):\n");
+    printf("Conversao de unidades de volume (L, mL, m3):\n");
 
     printf("\nInsira a unidade (L, mL, m3):\n");
     scanf("%4s", unidade);

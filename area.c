@@ -18,7 +18,7 @@ void area() {
     int opcao;
     float valor;
 
-    printf("\n\n=== Conversor de Área ===\n");
+    printf("=== Conversor de Área ===\n");
     printf("Escolha a direção da conversão:\n");
     printf("1. Metros quadrados (m²) para Centímetros quadrados (cm²)\n");
     printf("2. Centímetros quadrados (cm²) para Metros quadrados (m²)\n");

@@ -22,6 +22,7 @@ int main()
         if(escolha < 1 || escolha > 9)
             printf("Escolha icorreta, digite novamente\n");
     }while(escolha < 1 || escolha > 9);
+    printf("\n");
     
     switch(escolha){
         case 1:

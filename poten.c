@@ -6,7 +6,7 @@ void potencia() {
     int opcao;
     float valor, resultado;
 
-    printf("\n\n=== Conversor de Potência ===\n");
+    printf("=== Conversor de Potência ===\n");
     printf("Escolha a unidade de entrada:\n");
     printf("1. Watts (W) para Quilowatts (kW) e Cavalos-vapor (cv)\n");
     printf("2. Quilowatts (kW) para Watts (W) e Cavalos-vapor (cv)\n");

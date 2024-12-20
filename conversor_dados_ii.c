@@ -29,7 +29,7 @@ void show_dados() {
     double valor;
 
     // Menu de seleção
-    printf("\n\nEscolha a unidade de entrada:\n");
+    printf("Escolha a unidade de entrada:\n");
     printf("1. Bits\n2. Bytes\n3. Kilobytes (KB)\n4. Megabytes (MB)\n5. Gigabytes (GB)\n6. Terabytes (TB)\nOpção: ");
     scanf("%d", &opcao);
 
